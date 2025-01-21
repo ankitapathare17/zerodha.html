@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+.mainbox{
+    height: 800vh;
+    width: 100%;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.des{
+    height:100%;
+    width: 55%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+   
+}
+.sg{
+    color:  #444;;
+}
+
+
+
+.des ul li:hover{
+     color: blue;
+     cursor: pointer;
+}
+.logo img{
+    height: 30%;
+    width: 40%;
+
+}
+.des ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size:18px ;
+
+}
+.ab{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+   
+      
+
+   
+
+}
+.ab img{
+    width: 50%;
+    height: 80%;
+}
+
+.invest{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    
+    justify-content: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   /* text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: column;*/
+    
+
+   
+}
+.s{
+    height: 40px;
+    width:200px ;
+    
+    
+    background-color:  rgb(56, 126, 209);
+    color: white;
+    
+    
+        display: flex;
+        justify-content: center;
+
+    text-align: center;
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+.s button{
+    height:30px ;
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(56, 126, 209);
+    color: white;
+    
+}
+.on{
+/*margin-left: 145px;*/
+font-size: 21px;
+color: #424242;
+}
+.i{
+     
+     font-size: 38px;
+     color: #424242;
+}
+
+
+
+
+.common{
+    height: 140vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+
+
+
+
+
+.trust{
+    margin-left: 30px;
+    width: 43%;
+    height: 800px;
+    background-color:white;
+    
+    
+    
+}
+.custom{
+    font-size: 20px;
+    color: #424242;
+    
+}
+.with{
+font-size: 29px;
+color:#424242;
+}
+.font{
+    font-size: 18px;
+    color: #666;
+}
+
+
+
+
+.circle{
+    height: 850px;
+    width: 57%;
+    background-color: white;
+    display: flex;
+    
+    margin-left: 5px;
+    
+}
+
+.circle img{
+height: 76%;
+
+width: 90%;
+margin-top: 25px;
+}
+
+
+
+
+
+.sm{
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+}
+.economic{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.yellow{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.un{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 80px;
+}
+.ar{
+color: #387ed1;
+font-size:18px ;
+border-color:  rgba(0, 0, 0, 0);
+}
+
+
+
+
+.pricing{
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.oimg{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+.oz img{
+    height: 100px;
+    width: 120px;
+}
+.oz{
+    margin-top: 105px;
+    display: flex;
+    background-color: white;
+    color: #666;
+    height: 40%;
+    width: 35%;
+}
+.f{
+    margin-top: 45px;
+    font-size: 13px;
+    margin-right: 20%;
+    font-size: 10px;
+}
+.varsity{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.imgg{
+    height: 90%;
+    width: 45%;
+    background-color: white;
+    margin-left: 50px;
+}
+.openmarket{
+    height: 90%;
+    width: 60%;
+    background-color: white;
+    margin-left: 10px
+}
+.imgg img{
+    height:100%;
+    width: 85%;
+}
+.wi{
+    font-size: 32px;
+    color: #424242;
+}
+.fo{
+    font-size: 18px;
+    color: #424242;
+}
+
+
+
+
+
+.v{
+color: #387ed1;
+font-size: 20px;
+background-color: rgba(0,0,0,0);
+}
+.acc{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 20px;
+   color: #424242;
+    
+    
+    
+}
+.x{
+    font-size: 32px;
+    
+}
+.y{
+    font-size: 17px;
+    color:  rgb(102, 88, 88);;
+}
+.w{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(56, 126, 209);
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+   
+    
+}
+.w button{
+    background-color: rgb(56, 126, 209);
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+. hr line{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color:ghostwhite;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.right{
+    height: 90%;
+    width: 25%;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    color: rgb(102, 88, 88);
+}
+.com{
+    font-size: 22px;
+}
+.right img{
+    height: 20px;
+    width: 150px;
+    margin-left: 20px;
+}
+.iconi{
+    
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.l1 {
+width: 50%;
+}
+
+
+
+
+.last{
+    width: 100%;
+    height: 370px;
+    background-color: ghostwhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: .65rem;
+    color: #9b9b9b;
+    
+    
+}
+.b{
+    color: blue;
+}
+.ao{
+    font-size: 16px;
+}
+.l3{
+    color:  #424242;
+    width: 1.5;
+}
